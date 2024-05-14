@@ -1,18 +1,16 @@
 
-.navbar {
+.navbar-main {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: flex-end;
 }
 
-.navbar ul {
-  display: flex;
+.navbar > ul li{
   list-style-type: none;
+  margin: 20px;
+  padding: 25px;
 }
-
-.navbar ul li {
-  margin-right: 10px;
-}
-
 
 
 /*# sourceMappingURL=google.css.map */
