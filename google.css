@@ -6,6 +6,7 @@
 
 .navbar-link {
   display: flex;
+  margin: 100px;
 }
 
 .search-bar {
