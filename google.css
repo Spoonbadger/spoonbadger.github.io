@@ -8,5 +8,9 @@
   justify-content: flex-end;
 }
 
+.navbar li ul {
+  list-style-type: none;
+}
+
 
 /*# sourceMappingURL=google.css.map */
