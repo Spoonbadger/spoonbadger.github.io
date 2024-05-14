@@ -2,14 +2,13 @@
 .navbar-main {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
-  margin: 0px;
-  padding: 25px;
   justify-content: flex-end;
 }
 
 .navbar > li ul {
   list-style-type: none;
+  margin: 0px;
+  padding: 25px;
 }
 
 
