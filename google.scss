@@ -2,9 +2,11 @@
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
     margin: 20px;
     padding: 25px;
     justify-content: flex-end;
 }
 
+.navbar ul {
+    list-style-type: none;
+}
