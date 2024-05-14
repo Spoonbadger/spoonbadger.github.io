@@ -1,4 +1,5 @@
 .navbar-main {
+  display: flex;
   list-style-type: none;
 }
 
