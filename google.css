@@ -1,11 +1,5 @@
-
 .navbar-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
   list-style-type: none;
-  margin: 0px;
-  padding: 25px;
 }
 
 
