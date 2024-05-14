@@ -8,7 +8,7 @@
   justify-content: flex-end;
 }
 
-.navbar li ul {
+.navbar > li ul {
   list-style-type: none;
 }
 
