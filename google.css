@@ -1,15 +1,15 @@
 
-.navbar {
+.navbar-main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 20px;
-  padding: 25px;
   justify-content: flex-end;
 }
 
 .navbar > ul li{
   list-style-type: none;
+  margin: 20px;
+  padding: 25px;
 }
 
 
