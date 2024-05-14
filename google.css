@@ -5,11 +5,11 @@
 }
 
 .navbar-link {
-  
+  display: flex;
 }
 
 .search-bar {
-
+display: flex;
 }
 
 
