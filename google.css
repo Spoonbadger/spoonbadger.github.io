@@ -1,16 +1,11 @@
 
 .navbar-main {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.navbar-main > ul li{
-  flex-direction: row;
   list-style-type: none;
-  margin: 20px;
+  margin: 0px;
   padding: 25px;
+  justify-content: flex-end;
 }
 
 
