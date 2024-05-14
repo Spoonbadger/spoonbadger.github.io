@@ -1,6 +1,7 @@
 
 .navbar {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin: 20px;
   padding: 25px;
