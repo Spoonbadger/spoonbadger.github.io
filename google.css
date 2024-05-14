@@ -7,6 +7,7 @@
 }
 
 .navbar > ul li{
+  flex-direction: row;
   list-style-type: none;
   margin: 20px;
   padding: 25px;
