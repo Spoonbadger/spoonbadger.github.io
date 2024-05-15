@@ -6,13 +6,32 @@
 }
 
 .navbar-link {
-  margin: 100px;
+  margin-right: 50px;
+  padding: 50px;
 }
 
-.search-bar {
-display: flex;
-justify-content: center;
+.search-bar-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
 }
 
+.search-bar-bar {
+  height: 30px;
+  width: 500px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
 
+.search-bar-button {
+  height: 30px;
+  width: 150px;
+  margin: 20px;
+}
+
+.search-bar-button-container {
+  text-align: center;
+}
 /*# sourceMappingURL=google.css.map */
