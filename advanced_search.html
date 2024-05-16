@@ -12,7 +12,93 @@
     </head>
     <body>
         <!-- Top row containing the link to image and advanced search -->
-        advanced
+        <div class="container-row">
+            <a href="index.html">
+                <div class="small-logo">
+                    <img src="Google_2015_logo.png" alt="Google Images">
+                </div>
+            </a>
+            <div class="fill-space">
+                <ul>
+                    <li class="navbar-link_advanced" style="list-style-type: none;"><a href="index.html">Google Search</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="advanced-title">
+            <label>Advanced Search</label>
+        </div>
+        <div style="border-bottom: 1px solid rgb(235, 235, 235);"></div>
 
+        <!-- Search boxes -->
+        <div class="container-column">
+            <form action="https://images.google.com/search">
+                <div class="container-row">
+                    <div class="table-head">
+                        Find pages with...
+                    </div>
+                    <div>
+                        <!-- Blank rectangle -->
+                    </div>
+                    <div class="table-head-right">
+                        To do this in the search box
+                    </div>
+                </div>
+                <!-- Start of table body -->
+                <div class="container-row">
+                    <div class="table-body-left">
+                        all these words:
+                    </div>
+                    <div class="advanced-input">
+
+                        <input class="advanced-search-bar" type="text" name="as_q">
+                    </div>
+                    <div class="table-body-right">
+                        Type the important words:   <span class="table-body-right-most-text">tricolor rat terrier</span>
+                    </div>
+
+                </div>
+                <div class="container-row">
+                    <div class="table-body-left">
+                        this exact word of phrase:
+                    </div>
+                    <div>
+
+                        <input class="advanced-search-bar" type="text" name="as_epq">
+                    </div>
+                    <div class="table-body-right">
+                        Put exact words in quotes:   <span class="table-body-right-most-text">"rat terrier"</span>
+                    </div>
+
+                </div>
+                <div class="container-row">
+                    <div class="table-body-left">
+                        any of these words:
+                    </div>
+                    <div>
+
+                        <input class="advanced-search-bar" type="text" name="as_oq">
+                    </div>
+                    <div class="table-body-right">
+                        Type OR between all the words you want:   <span class="table-body-right-most-text">miniature OR standard</span>
+                    </div>
+
+                </div>
+                <div class="container-row">
+                    <div class="table-body-left">
+                        None of these words
+                    </div>
+                    <div>
+                        <input class="advanced-search-bar" type="text" name="as_eq">
+                    </div>
+                    <div class="table-body-right" style="line-height: 15px; margin-top: 15px;">
+                        Put a minus sign just before words you don't want:  
+                        <br><span style="margin-left: 10px;">-rodent,</span><span class="table-body-right-most-text" style="margin-left: 10px;">-"Jack Russell"</span>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center; margin-top: 30px;">
+                    <input class="advanced-search-button" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
